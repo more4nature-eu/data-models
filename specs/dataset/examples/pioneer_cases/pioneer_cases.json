@@ -1,0 +1,148 @@
+[
+  {
+    "@type": "dcat:Dataset",
+    "@id": "https://example.org/dataset/Z2-NL(N)",
+    "title": "Z2-NL(N)",
+    "description": "Zero Pollution dataset for National (N) scope, including variables PM2.5, PM10, N02, NH3.",
+    "publisher": {
+      "@type": "org:Organization",
+      "@id": "https://example.org/organization/samen-meten",
+      "name": "Samen Meten",
+      "homepage": "https://samenmeten.rivm.nl",
+      "email": "info@samenmeten.rivm.nl"
+    },
+    "spatialCoverage": {
+      "@type": "dct:Location",
+      "geometry": {
+        "@type": "sf:Geometry",
+        "asWKT": "POINT(5.387 52.155)"
+      }
+    },
+    "category": [
+      {
+        "@type": "skos:Concept",
+        "@id": "http://example.org/concept/zero-pollution",
+        "prefLabel": "Zero Pollution"
+      }
+    ],
+    "conformsTo": [
+      {
+        "@type": "dct:Standard",
+        "identifier": "http://www.opengis.net/spec/sensorthings/1.0",
+        "title": "SensorThings API",
+        "version": "1.0"
+      }
+    ],
+    "distribution": [
+      {
+        "@type": "dcat:Distribution",
+        "accessURL": "https://api-samenmeten.rivm.nl/v1.0",
+        "mediaType": "application/json"
+      }
+    ]
+  },
+  {
+    "@type": "dcat:Dataset",
+    "@id": "https://example.org/dataset/B11-PT(N)",
+    "title": "B11-PT(N)",
+    "description": "Biodiversity Protection dataset for National (N) scope, including variables Pollinator species diversity and Plant-pollinator interactions.",
+    "publisher": {
+      "@type": "org:Organization",
+      "@id": "https://example.org/organization/polinizacao",
+      "name": "PolinizAÇÃO",
+      "homepage": "https://www.inaturalist.org/projects/polinizacao-interacoes-planta-polinizador",
+      "email": "info@polinizacao.org"
+    },
+    "spatialCoverage": {
+      "@type": "dct:Location",
+      "geometry": {
+        "@type": "sf:Geometry",
+        "asWKT": "POINT(-8.611 39.601)"
+      }
+    },
+    "category": [
+      {
+        "@type": "skos:Concept",
+        "@id": "http://example.org/concept/biodiversity-protection",
+        "prefLabel": "Biodiversity Protection"
+      }
+    ],
+    "conformsTo": [
+      {
+        "@type": "dct:Standard",
+        "identifier": "http://rs.tdwg.org/dwc/terms/",
+        "title": "Darwin Core",
+        "version": "1.0"
+      }
+    ],
+    "distribution": [
+      {
+        "@type": "dcat:Distribution",
+        "accessURL": "https://api.inaturalist.org/v1/docs/",
+        "mediaType": "application/json"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "accessURL": "https://butterfly-monitoring.net/ebms-data%20access",
+        "mediaType": "application/json"
+      }
+    ]
+  },
+  {
+    "@type": "dcat:Dataset",
+    "@id": "https://example.org/dataset/B15-PT(L)",
+    "title": "B15-PT(L)",
+    "description": "Biodiversity Protection dataset for Local (L) scope, including various CS projects led by the Municipality of Oeiras.",
+    "publisher": {
+      "@type": "org:Organization",
+      "@id": "https://example.org/organization/oeiras",
+      "name": "Municipality of Oeiras",
+      "homepage": "https://www.oeiras.pt",
+      "email": "info@oeiras.pt"
+    },
+    "spatialCoverage": {
+      "@type": "dct:Location",
+      "geometry": {
+        "@type": "sf:Geometry",
+        "asWKT": "POINT(-9.301 38.697)"
+      }
+    },
+    "category": [
+      {
+        "@type": "skos:Concept",
+        "@id": "http://example.org/concept/biodiversity-protection",
+        "prefLabel": "Biodiversity Protection"
+      }
+    ],
+    "conformsTo": [
+      {
+        "@type": "dct:Standard",
+        "identifier": "http://rs.tdwg.org/dwc/terms/",
+        "title": "Darwin Core",
+        "version": "1.0"
+      }
+    ],
+    "distribution": [
+      {
+        "@type": "dcat:Distribution",
+        "accessURL": "https://www.biodiversity4all.org/projects/biodiversidade-de-oeiras",
+        "mediaType": "application/json"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "accessURL": "https://www.biodiversity4all.org/projects/bioblitzes-oeiras",
+        "mediaType": "application/json"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "accessURL": "https://www.biodiversity4all.org/projects/ebio-serra-de-carnaxide",
+        "mediaType": "application/json"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "accessURL": "https://www.biodiversity4all.org/projects/biospots-jardim-municipal-de-oeiras",
+        "mediaType": "application/json"
+      }
+    ]
+  }
+]
